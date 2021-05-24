@@ -1,0 +1,35 @@
+
+
+html {
+    font-size: 10px;
+}
+
+
+html, 
+body {
+    height : 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* // header and menu  */
+.nav-item , .nav-item a {
+    color: white;
+    list-style: none;
+}
