@@ -1,0 +1,81 @@
+.main{
+
+}
+
+.scroll-section{
+//     min-height: 100vh;
+//     background-image: url("./assets/section1_background.png");
+ }
+
+.home-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./assets/section1_background.png");
+}
+
+
+button.preview{
+    margin-top: 15rem;
+    background-color: transparent;
+    border: white solid 0.1rem;
+    color: white;
+    flex: 0.05;
+    width: 40rem; 
+}
+
+
+.home-section-2{
+    background-color: white;
+    text-align: center;
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section-2 h1{
+    font-size: 3.5rem;
+}
+
+.home-section-2 p{
+    font-size: 1.5rem;
+}
+
+.home-section-3 {
+    display: flex;
+    padding: 5vh 0vw 10vh;
+    justify-content: space-around;
+}
+
+.section-card{
+    height: 70vh;
+    width: 31vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+
+.section-card h1{
+    font-size: 4rem;
+    font-weight: lighter;
+    color: white;
+}
+
+.section-card.one{
+    background-image: url("./assets/furniture.png");
+
+}
+
+.section-card.two{
+    background-image: url("./assets/lumi.png");
+    
+}
+
+.section-card.three{
+    background-image: url("./assets/objet.png");
+   
+    
+}

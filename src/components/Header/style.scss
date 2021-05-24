@@ -1,10 +1,18 @@
+.header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    display: block;
+    top: 2.1vh;
+}
 
 .header nav {
     height: 20%;
     display: flex; 
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.788);
     align-items: center;
     justify-content: space-evenly; 
+    // background-color: red;
+    
 }
 
 .header .nav-box  {
@@ -17,6 +25,7 @@
 
 .logo-img{
     margin: 1rem 0.1rem;
+    max-height: 5rem;
     height: auto;
     width: 100%;
 }

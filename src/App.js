@@ -1,9 +1,8 @@
 import './default.scss'
-// import '../node_modules/reset-css/reset.css';
 import React from 'react';
 import Header from './components/Header/index'
 import BlackMenu from './components/BlackMenu/index'
-
+import Homepage from './pages/Homepage';
 
 
 
@@ -14,7 +13,7 @@ function App() {
     <div className="App">
       <BlackMenu />
       <Header />
-      <h1>  Hello   <span >Hello </span></h1> 
+      <Homepage />
     </div>
   );
 }
