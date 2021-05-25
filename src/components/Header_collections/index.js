@@ -1,16 +1,18 @@
-import logo from './assets/COMPANY LOGO.svg'
+import logo from './../Header/assets/COMPANY LOGO.svg'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.scss'
 
 
 
-const Header = props => {
+const Header_collections = props => {
     return (
       
-<div className = 'header' >
+
+<div className = 'header-collections' >
 <nav>
-    <ul className="h-left nav-box">
+    
+<ul className="h-left nav-box">
         <div className = 'navi'>
         <li className="nav-item ">
             <Link to='/' className="nav-link" href="#">HOME </Link>
@@ -45,11 +47,11 @@ const Header = props => {
             </li>
         </div>
     </ul>
-
-
 </nav>
 </div>
+
+
     )
 };
 
-export default Header; 
+export default Header_collections; 

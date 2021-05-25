@@ -1,4 +1,4 @@
-.header{
+.header-collections{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     display: block;
@@ -7,7 +7,7 @@
     nav {
         height: 20%;
         display: flex; 
-        background-color: rgba(0, 0, 0, 0.788);
+        background-color: green;
         align-items: center;
         justify-content: space-evenly;   
     }
