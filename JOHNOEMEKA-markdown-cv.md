@@ -2,8 +2,8 @@ John O. Emeka
 ============
 
 -----------------------------------------------
-3203, 195 N Harbor Dr, Chicago IL    
-okechukwu95@hotmail.com
+3203, 195 N Harbor Dr, Chicago IL |    
+okechukwu95@hotmail.com | 
 773-441-6615                    
 -----------------------------------------------
 
